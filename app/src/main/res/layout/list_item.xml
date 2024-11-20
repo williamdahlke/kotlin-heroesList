@@ -7,7 +7,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/heroeImage"
+        android:id="@+id/heroImage"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="8dp"
@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/batman" />
 
     <TextView
-        android:id="@+id/tvHeroeName"
+        android:id="@+id/tvHeroName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -28,8 +28,8 @@
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="24dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/heroeImage"
-        app:layout_constraintTop_toTopOf="@+id/heroeImage" />
+        app:layout_constraintStart_toEndOf="@+id/heroImage"
+        app:layout_constraintTop_toTopOf="@+id/heroImage" />
 
     <TextView
         android:id="@+id/tvHeroCompany"
@@ -37,6 +37,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="DC Company"
-        app:layout_constraintStart_toStartOf="@+id/tvHeroeName"
-        app:layout_constraintTop_toBottomOf="@+id/tvHeroeName" />
+        app:layout_constraintStart_toStartOf="@+id/tvHeroName"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeroName" />
 </androidx.constraintlayout.widget.ConstraintLayout>
